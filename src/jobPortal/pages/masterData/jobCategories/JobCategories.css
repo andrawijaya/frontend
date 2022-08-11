@@ -1,0 +1,21 @@
+.wrap-master-data{
+    padding: 10px 60px 50px;
+    height: 100%;
+}
+
+.wrap-master-data__form{
+    padding: 10px 60px 50px;
+    height: 100vh;
+    text-align: left;
+}
+
+
+
+.wrap-search-add{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-form-master-data{
+    padding: 20px 120px;
+}

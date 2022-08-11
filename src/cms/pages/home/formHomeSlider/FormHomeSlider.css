@@ -1,0 +1,47 @@
+.wrap-form-slider{
+    text-align: left;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.wrap-form-home{
+    padding: 20px 50px;
+    background-color: white;
+    height: 100%;
+}
+
+.group-btn{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.group-btn>button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 5px;
+    outline: none;
+}
+
+.group-btn>button:nth-child(1){
+    border: 1px solid #E78080;
+    background-color: #E78080;
+    color: white;
+}
+
+.group-btn>button:nth-child(2){
+    border: 1px solid #7CC0C9;
+    background-color: #7CC0C9;
+    color: white;
+}
+
+.group-btn>button:hover{
+    color: black;
+}

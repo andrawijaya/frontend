@@ -1,0 +1,192 @@
+.navbar {
+  background-color: #ffffff;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 5%);
+  padding: 5px 10px;
+}
+
+.company-logo {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 0px 50px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.company-logo > img {
+  height: 30px;
+  cursor: pointer;
+}
+
+.account-shortcut {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 40px;
+  overflow: hidden;
+  padding: 0px 50px;
+  cursor: pointer;
+}
+
+.wrap-ava {
+  height: 40px;
+  width: 40px;
+  background-color: #7cc0c9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.wrap-role {
+  height: 40px;
+  min-width: 175px;
+  align-items: center;
+  display: flex;
+}
+
+.wrap-role > label {
+  margin-bottom: 0px;
+  padding: 0px 10px;
+  color: #7cc0c9;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.wrap-load-shortcut {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: grid;
+  background-color: white;
+  width: 220px;
+  height: 100vh;
+  padding-top: 60px;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  transition: 850ms;
+  z-index: 10;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+}
+
+.wrap-version {
+  font-size: xx-small;
+  display: grid;
+  align-items: end;
+}
+
+.wrap-list-menu {
+  display: flex;
+  justify-content: flex-start;
+  width: 220px;
+  cursor: pointer;
+  /* margin-top: 10px; */
+  padding: 10px 0px 10px 20px;
+}
+
+.wrap-list-menu.active {
+  background-color: whitesmoke;
+  box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.07);
+  border-right: 8px solid #7cc0c9;
+}
+
+.list-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.list-menu > div {
+  padding: 0px 5px;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 19px; */
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.wrap-sidebar-menu {
+  padding-bottom: 50px;
+  padding-top: 2px;
+}
+
+.wrap-sub-list-menu {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.sub-list-menu.active {
+  background-color: whitesmoke;
+  box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.07);
+  border-right: 8px solid #7cc0c9;
+}
+
+.sub-list-menu > div {
+  padding: 5px 0px;
+  padding-left: 70px;
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 14px;
+}
+
+.backdrop {
+  z-index: 998;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000000;
+  opacity: 0.35;
+  position: fixed;
+  display: block;
+}
+
+.wrap-user-management {
+  position: absolute;
+  width: 100%;
+  padding: 0px 50px;
+}
+
+.user-management {
+  text-align: left;
+  background-color: white;
+  width: max-content;
+  /* margin: 10px 0px; */
+  padding: 10px 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.user-management > a {
+  font-size: 14px;
+  width: 100%;
+  margin: 0px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: black;
+  display: block;
+}
+
+.user-management > a:hover {
+  text-decoration: none;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #7cc0c9;
+}

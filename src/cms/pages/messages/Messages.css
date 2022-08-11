@@ -1,0 +1,11 @@
+.wrap-message{
+    width: 100%;
+    padding: 10px 50px 30px;
+    height: 100%;
+}
+
+.wrap-form-messages{
+    width: 100%;
+    padding: 10px 50px 30px;
+    height: 100vh;
+}

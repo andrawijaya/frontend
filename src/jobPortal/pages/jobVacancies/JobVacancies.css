@@ -1,0 +1,125 @@
+.wrap-vacancies{
+    padding: 20px 50px;
+    height: 100%;
+    font-family: Inter;
+}
+
+.group-btn__job-header>a>button{
+    margin: 5px;
+}
+
+.group-btn__job-header>a:nth-child(1)>button{
+    border: 1px solid #C4C4C4;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.group-btn__job-header>button:nth-child(2){
+    border: 1px solid #7CC0C9;
+    background-color: #7CC0C9;
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.navbar-search {
+    display: flex;
+    height: 40px;
+    border: 1px solid #F9F9F9;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.navbar-search>input {
+    flex: 1 0 150px;
+    border: none;
+    width: 100%;
+    border-radius: 4px 0 0 4px;
+    padding-right: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+.navbar-search>input:focus {
+    outline: none;
+}
+
+.navbar-search>button {
+    flex: 0 0 40px;
+    background-color: transparent;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    transition: all 0.1s ease-in-out;
+    color: #A0A0A0;
+    font-size: 18px;
+}
+
+.navbar-search>button:hover {
+    background-color: #c0c0c0;
+}
+
+.wrap-list-job-vacancies{
+    padding: 20px 0px;
+    text-align: left;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.wrap-list-job{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.wrap-detail-job{
+    margin-bottom: 10px;
+}
+
+.wrap-content-job>label{
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7CC0C9;
+}
+
+.wrap-informatin-job>label{
+    padding-right: 1rem;
+    font-size: 14px;
+}
+
+.wrap-total-candidate>label, .wrap-date-job>label{
+    padding-right: 1rem;
+    font-size: 14px;
+    border-right: 2px solid #7CC0C9;
+    padding-left: 1rem;
+}
+
+.wrap-total-candidate>label:nth-child(1), .wrap-date-job>label:nth-child(1){
+    padding-left: 0px;
+}
+
+.wrap-btm-detail-job{
+    font-size: 14px;
+}
+
+.wrap-update-detail-job>label{
+    padding-right: 10px;
+}

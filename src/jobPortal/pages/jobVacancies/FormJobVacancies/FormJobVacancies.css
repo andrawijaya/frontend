@@ -1,0 +1,143 @@
+.wrap-form-job-vacancies{
+    padding: 20px 50px;
+    height: 100%;
+    font-family: Inter;
+}
+
+.wrap-content-form-job-vacancies{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.wrap-left-content-form{
+    width: 100%;
+}
+.wrap-right-content-form{
+    /* width: 100%; */
+    margin: 20px;
+}
+
+.wrap-detail-form-job-vacancies{
+    text-align: left;
+}
+
+.wrap-detail-form-job-vacancies>label, .wrap-wyswyg>label{
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.form-control-group{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+}
+
+.form-control-group>select{
+    display: block;
+    width: 100%;
+    margin: 0px 5px;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.wrap-action-form{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 25px;
+    width: 100%;
+    text-align: left;
+}
+
+.wrap-action-form>label{
+    width: max-content;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.detail-action-form>p{
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px;
+}
+
+.group-button-form{
+    width: max-content;
+    margin: 10px 0px;
+}
+
+.wrap-react-quill{
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.ql-snow{
+    background-color: #EBEBEB;
+}
+
+.ql-editor{
+    min-height: 150px;
+    background-color: #F9F9F9;
+}
+
+.mb-3>label, .form-check{
+    font-size: 14px;
+    font-family: Inter;
+}
+
+.form-label{
+    font-size: 14px;
+    font-family: Inter;
+}
+
+.form-check{
+    padding-bottom: 5px;
+}
+
+.input-search-candidate>div{
+    width: 100%;
+    padding-right: 0.2rem;
+}
+
+.input-search-candidate>button{
+    outline: none;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 4px;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #7CC0C9;
+}
+
+.allowance-benefit {
+    width: 33.3%;
+    display: inline-flex;
+    padding: 0.2rem;
+    align-items: center;
+  }

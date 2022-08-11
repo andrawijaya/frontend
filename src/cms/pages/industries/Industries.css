@@ -1,0 +1,17 @@
+.wrap-industries{
+    width: 100%;
+    padding: 10px 50px 30px;
+    height: 100vh;
+}
+
+.wrap-form-industries{
+    width: 100%;
+    padding: 10px 50px 30px;
+    height: 100%;
+}
+
+
+.wrap-list-form-industries{
+    margin-top: 10px;
+    text-align: left;
+}

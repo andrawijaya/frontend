@@ -1,0 +1,41 @@
+.wrap-form-subscribe{
+    width: 100%;
+    padding: 10px 50px 30px;
+    height: 100%;
+}
+
+.grouping-form{
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+}
+
+.grouping-form>div{
+    display: inline-grid;
+}
+
+.wrap-list-subscribe{
+    width: 25%;
+    padding: 0.5rem 0.5rem;
+}
+
+.wrap-list-subscribe:nth-child(1){
+    padding-left: 0rem;
+}
+
+.wrap-list-subscribe:nth-child(4n){
+    padding-right: 0rem;
+}
+
+.wrap-list-subscribe:nth-child(1n - 1){
+    padding-left: 0rem;
+}
+
+.list-subscribe{
+    border: 1px solid #79BCC4;
+    border-radius: 10px;
+    background-color: #79BCC4;
+    padding: 8px 0px;
+    color: #FFFFFF;
+}
